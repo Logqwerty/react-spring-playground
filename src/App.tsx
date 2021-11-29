@@ -1,9 +1,10 @@
 import React from "react";
+import { FadeIn } from "./examples";
 
 type TAppProps = {};
 
 const App: React.FC<TAppProps> = () => {
-  return <div>React-spring</div>;
+  return <FadeIn />;
 };
 
 export default App;
