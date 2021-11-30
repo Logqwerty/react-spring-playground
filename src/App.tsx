@@ -1,12 +1,12 @@
 import React from "react";
-import { FadeInWhenInView } from "./examples";
+import { Floating } from "./examples";
 
 type TAppProps = {};
 
 const App: React.FC<TAppProps> = () => {
   return (
     <>
-      <FadeInWhenInView />
+      <Floating />
     </>
   );
 };
